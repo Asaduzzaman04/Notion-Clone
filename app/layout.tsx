@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import Navbar from "@/components/Custom_Components/Navbar";
+import Sidebar from "@/components/Custom_Components/Sidebar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +36,7 @@ export default function RootLayout({
           <main className="flex justify-center items-center ">
             {/* side-bar */}
             <div>
-
+              <Sidebar />
             </div>
 
             {/* notes-section */}
