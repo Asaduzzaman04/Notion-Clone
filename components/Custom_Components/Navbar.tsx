@@ -29,11 +29,7 @@ const Navbar = () => {
       </div>
     </nav>
   );
-    return (
-        <div>
-            
-        </div>
-    );
+  return <div></div>;
 };
 
 export default Navbar;
